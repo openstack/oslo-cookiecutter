@@ -37,8 +37,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'{{cookiecutter.repo_name}}'
-copyright = u'2013, OpenStack Foundation'
+project = u'oslo.{{cookiecutter.module_name}}'
+copyright = u'2014, OpenStack Foundation'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
