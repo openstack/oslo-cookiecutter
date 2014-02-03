@@ -19,7 +19,7 @@ test_{{ cookiecutter.module_name }}
 Tests for `{{ cookiecutter.module_name }}` module.
 """
 
-from {{ cookiecutter.module_name }}.tests import base
+from . import base
 
 
 class Test{{ cookiecutter.module_name|capitalize }}(base.TestCase):
