@@ -6,8 +6,5 @@ oslo.{{ cookiecutter.module_name }}
 
 * Free software: Apache license
 * Documentation: http://docs.openstack.org/developer/oslo.{{ cookiecutter.module_name }}
-
-Features
---------
-
-* TODO
+* Source: http://git.openstack.org/cgit/openstack/oslo.{{ cookiecutter.module_name }}
+* Bugs: http://bugs.launchpad.net/oslo
