@@ -2,6 +2,6 @@
 Usage
 ========
 
-To use {{ cookiecutter.repo_name }} in a project::
+To use oslo.{{ cookiecutter.module_name }} in a project::
 
-	import {{ cookiecutter.module_name }}
+	import oslo.{{ cookiecutter.module_name }}
