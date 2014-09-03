@@ -10,7 +10,7 @@ project). See https://github.com/audreyr/cookiecutter.
 * hacking_: Enforces the OpenStack Hacking Guidelines
 * testrepository_: Runs tests using testrepository
 * OpenStack-Infra_: Ready for OpenStack Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3
+* Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4
 * Sphinx_ docs: Documentation ready for generation and publication
 
 Usage
