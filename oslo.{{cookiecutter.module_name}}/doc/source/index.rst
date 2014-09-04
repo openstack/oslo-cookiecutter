@@ -1,20 +1,20 @@
-.. oslo.{{ cookiecutter.module_name }} documentation master file, created by
-   sphinx-quickstart on Tue Jul  9 22:26:36 2013.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+======{% for _ in cookiecutter.module_name %}={% endfor %}=
+ oslo.{{ cookiecutter.module_name }}
+======{% for _ in cookiecutter.module_name %}={% endfor %}=
 
-Welcome to oslo.{{ cookiecutter.module_name }}'s documentation!
-===============================================================
+{{ cookiecutter.project_short_description}}
 
-Contents:
+Contents
+========
 
 .. toctree::
    :maxdepth: 2
 
-   readme
    installation
+   api
    usage
    contributing
+   history
 
 Indices and tables
 ==================
