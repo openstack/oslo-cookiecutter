@@ -1,6 +1,6 @@
-========
-Usage
-========
+=======
+ Usage
+=======
 
 To use oslo.{{ cookiecutter.module_name }} in a project::
 
