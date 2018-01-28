@@ -1,0 +1,18 @@
+- project:
+    check:
+      jobs:
+        - oslo-cookiecutter-tox-cookiecutter
+    gate:
+      jobs:
+        - oslo-cookiecutter-tox-cookiecutter
+
+
+- job:
+    name: oslo-cookiecutter-tox-cookiecutter
+    parent: tox
+    description: |
+      Run tests for oslo-cookiecutter project.
+
+      Uses tox with the ``cookiecutter`` environment.
+    vars:
+      tox_envlist: cookiecutter
