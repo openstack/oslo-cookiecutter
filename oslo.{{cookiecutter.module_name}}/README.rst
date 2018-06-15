@@ -9,6 +9,6 @@ Please feel here a long description which must be at least 3 lines wrapped on
 Note that this is a hard requirement.
 
 * Free software: Apache license
-* Documentation: http://docs.openstack.org/developer/oslo.{{ cookiecutter.module_name }}
-* Source: http://git.openstack.org/cgit/openstack/oslo.{{ cookiecutter.module_name }}
-* Bugs: http://bugs.launchpad.net/oslo.{{ cookiecutter.module_name }}
+* Documentation: https://docs.openstack.org/oslo.{{ cookiecutter.module_name }}/latest/
+* Source: https://git.openstack.org/cgit/openstack/oslo.{{ cookiecutter.module_name }}
+* Bugs: https://bugs.launchpad.net/oslo.{{ cookiecutter.module_name }}
