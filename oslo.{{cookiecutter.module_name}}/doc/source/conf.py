@@ -22,6 +22,8 @@ sys.path.insert(0, os.path.abspath('../..'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'openstackdocstheme',
+    'sphinxcontrib.apidoc',
+
 ]
 
 repository_name = 'openstack/oslo.{{cookiecutter.module_name}}'
@@ -69,5 +71,12 @@ latex_documents = [
      u'OpenStack Foundation', 'manual'),
 ]
 
-# Example configuration for intersphinx: refer to the Python standard library.
-#intersphinx_mapping = {'http://docs.python.org/': None}
+# -- sphinxcontrib.apidoc configuration --------------------------------------
+
+apidoc_module_dir = '../../'
+apidoc_output_dir = 'reference/api'
+apidoc_excluded_paths = [
+    'oslo_{{cookiecutter.module_name}}/tests',
+    'oslo_{{cookiecutter.module_name}}/_*',
+    'setup.py',
+]
