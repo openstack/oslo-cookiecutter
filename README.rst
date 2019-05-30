@@ -18,7 +18,7 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://git.openstack.org/openstack-dev/oslo-cookiecutter.git
+    cookiecutter https://opendev.org/openstack/oslo-cookiecutter
 
 Oslo libraries require a working git repo for pbr to work, so you need
 to init a repo and commit to it before doing anything else::
@@ -38,4 +38,4 @@ Then:
 .. _testrepository: https://testrepository.readthedocs.org/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
-.. _hacking: https://git.openstack.org/cgit/openstack-dev/hacking/plain/HACKING.rst
+.. _hacking: https://opendev.org/openstack/hacking

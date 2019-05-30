@@ -10,5 +10,5 @@ Note that this is a hard requirement.
 
 * Free software: Apache license
 * Documentation: https://docs.openstack.org/oslo.{{ cookiecutter.module_name }}/latest/
-* Source: https://git.openstack.org/cgit/openstack/oslo.{{ cookiecutter.module_name }}
+* Source: https://opendev.org/openstack/oslo.{{ cookiecutter.module_name }}
 * Bugs: https://bugs.launchpad.net/oslo.{{ cookiecutter.module_name }}
