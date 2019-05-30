@@ -10,7 +10,7 @@ tmp_dir="$1"
 out_dir="$tmp_dir/output"
 
 # The templates are above the tools directory.
-template_dir=$(dirname $(dirname $0))
+template_dir=$(readlink -e $(dirname $(dirname $0)))
 
 rm -rf $out_dir
 mkdir -p $out_dir
