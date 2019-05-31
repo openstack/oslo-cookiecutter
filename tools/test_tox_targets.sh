@@ -18,6 +18,8 @@ cd $project_dir
 # PBR requires a git repo for versioning
 git init .
 # openstackdocstheme requires commits for last modified calculation
+git config user.email "test@example.com"
+git config user.name "Test Name"
 git add .
 git commit -m "Test commit"
 
@@ -28,4 +30,4 @@ def test_api():
     pass
 EOF
 
-tox -e pep8,py27,py36,py37,docs,lower-constraints,cover
+tox -e pep8,py27,py36,docs,lower-constraints,cover
