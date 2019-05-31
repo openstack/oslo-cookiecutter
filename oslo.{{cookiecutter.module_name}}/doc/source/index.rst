@@ -14,7 +14,6 @@ Contents
    reference/index
    usage
    contributing
-   history
 
 Indices and tables
 ==================

@@ -17,5 +17,15 @@ cd $project_dir
 
 # PBR requires a git repo for versioning
 git init .
+# openstackdocstheme requires commits for last modified calculation
+git add .
+git commit -m "Test commit"
+
+# Create an "implementation" so we have an API to document
+cat > $project_dir/oslo_testing/test.py << EOF
+def test_api():
+    """A docstring"""
+    pass
+EOF
 
 tox -e pep8,py27,py36,py37,docs,lower-constraints,cover
