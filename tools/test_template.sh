@@ -23,4 +23,4 @@ This package is for testing the templates.
 EOF
 
 echo "Files created:"
-find $out_dir
+find .
