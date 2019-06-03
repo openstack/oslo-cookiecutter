@@ -73,10 +73,8 @@ latex_documents = [
 
 # -- sphinxcontrib.apidoc configuration --------------------------------------
 
-apidoc_module_dir = '../../'
+apidoc_module_dir = '../../oslo_{{cookiecutter.module_name}}'
 apidoc_output_dir = 'reference/api'
 apidoc_excluded_paths = [
-    'oslo_{{cookiecutter.module_name}}/tests',
-    'oslo_{{cookiecutter.module_name}}/_*',
-    'setup.py',
+    'tests',
 ]
