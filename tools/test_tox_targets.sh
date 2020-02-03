@@ -30,4 +30,4 @@ def test_api():
     pass
 EOF
 
-tox -e pep8,py27,py36,docs,lower-constraints,cover
+tox -e pep8,py36,docs,lower-constraints,cover
