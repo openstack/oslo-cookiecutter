@@ -34,8 +34,12 @@ lib64
 pip-log.txt
 
 # Unit test / coverage reports
-.coverage
+cover/
+.mypy.cache/
+.coverage*
 .tox
+stestr
+.venv
 
 # Translations
 *.mo
@@ -50,3 +54,8 @@ doc/build
 # pbr generates these
 AUTHORS
 ChangeLog
+
+# reno build
+releasenotes/build
+RELEASENOTES.rst
+releasenotes/notes/reno.cache
