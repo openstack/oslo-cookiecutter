@@ -15,6 +15,13 @@ Contents
    usage
    contributing
 
+Release Notes
+=============
+
+Read also the `oslo.{{ cookiecutter.module_name }} Release Notes
+<https://docs.openstack.org/releasenotes/oslo.{{ cookiecutter.module_name }}/>`_.
+
+
 Indices and tables
 ==================
 
