@@ -46,9 +46,9 @@ extensions = [
 ]
 
 # openstackdocstheme options
-repository_name = 'openstack/oslo.{{cookiecutter.module_name}}'
-bug_project = 'oslo.{{cookiecutter.module_name}}'
-bug_tag = ''
+openstackdocs_repo_name = 'openstack/oslo.{{cookiecutter.module_name}}'
+openstackdocs_bug_project = 'oslo.{{cookiecutter.module_name}}'
+openstackdocs_bug_tag = ''
 
 # The master toctree document.
 master_doc = 'index'
