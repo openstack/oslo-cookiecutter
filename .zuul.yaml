@@ -16,3 +16,7 @@
       Uses tox with the ``cookiecutter`` environment.
     vars:
       tox_envlist: cookiecutter
+      # Use the ensure-tox role. Install a symlink to the tox executable into
+      # the /usr/local/bin path. It's useful when scripts need to be run that
+      # expect to find standard location.
+      ensure_global_symlinks: True
